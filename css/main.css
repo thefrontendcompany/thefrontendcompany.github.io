@@ -1,0 +1,57 @@
+main {
+  padding: 1rem;
+}
+
+body {
+  font-family: 'Barlow',sans-serif;
+  /* font-size: 24px; */
+  color: var(--clr-white);
+  line-height: 1.6;
+  background: var(--clr-background);
+}
+
+h1 {
+  /* font-family: "Circular Std Bold",sans-serif; */
+  font-size: 3em;
+}
+
+.hero_title {
+  padding-top: 1.2em;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.hero_subtitle {
+  text-align: center;
+  /* padding-bottom: 4em; */
+  margin-top: -20px; /* todo find better way */
+  font-size: 1.15em;
+}
+
+.btn {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn-primary {
+  font-size: 2rem;
+
+  border-style: solid;
+  border-width: 0.14em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
+  text-transform: uppercase;
+}
+
+.btn-primary-container {
+  /* margin: auto;
+  width: 50%; */
+
+  /* margin: 0 auto; */
+  /* padding-top: 3em; */
+  padding-bottom: 2em;
+
+  display: flex;
+  justify-content: center;
+}
